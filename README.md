@@ -1,6 +1,6 @@
 # learningJs
 Learning Js Concepts
 
-# function 
+# Js 
 - sns
-s
+- 
