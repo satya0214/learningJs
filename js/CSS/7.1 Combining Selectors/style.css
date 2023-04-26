@@ -1,0 +1,20 @@
+/* Write your code here: */
+h1,h2{                       /*group selector--> {selector,selector}*/
+    color: blueviolet;  
+}
+                    /* child==Apply to direct child of left side*/
+.box > p{        /* child selector-->  parentselector > childselector*/
+    color:firebrick ;          
+}
+
+.box li{              /*Descendant Selector--> Apply to a descendant of  left side*/
+    color: blue;       /*ancestor descendant*/
+}
+
+  li.done{                  /*Chaining = apply where all selector are true*/
+    color: seagreen;                         /*selectorselector*/
+  }   
+  
+  ul p.done{            /*Combining combines*/
+    font-size: 0.5rem;  /*ancestor chainingMethod*/
+    }                   /*selector selectorselector*/ 
